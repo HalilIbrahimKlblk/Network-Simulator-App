@@ -1,1 +1,28 @@
+# .gitignore
 
+# Çevre Değişkenleri ve Gizli Dosyalar
+.env
+.secrets/
+
+# Python Sanal Ortamları (Virtual Environments)
+venv/
+env/
+.venv/
+
+# Derlenmiş Python Dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Veri Setleri ve Raporlar (GitHub sınırlarına takılmamak için)
+*.csv
+kaggle_verisi.csv
+SOC_Anomali_Raporu*.csv
+
+# İşletim Sistemi Dosyaları
+.DS_Store
+Thumbs.db
+
+# IDE ve Editör Dosyaları
+.vscode/
+.idea/
