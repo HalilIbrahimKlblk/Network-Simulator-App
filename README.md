@@ -13,7 +13,26 @@ Bu proje, Kaggle **CICIDS2017** veri seti üzerinden ağ trafiğini gerçek zama
 * **Streamlit** (Kullanıcı Arayüzü ve Canlı Akış)
 * **Pandas & NumPy** (Veri Analizi ve Zenginleştirme)
 
-## 🚀 Kurulum ve Çalıştırma
+## ⚙️ Kurulum ve Çalıştırma
 
-**1. Depoyu bilgisayarınıza klonlayın:**
+Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları sırasıyla izleyin:
+
+### 1. Projeyi bilgisayarınıza klonlayın
+
+### 2. Bağımlılıkları kurun
+
+Projenin ihtiyaç duyduğu kütüphaneleri yüklemek için terminal (komut satırı) üzerinden aşağıdaki komutu çalıştırın:
+
 ```bash
+pip install -r requirements.txt
+```
+
+### 3. Uygulamayı çalıştırın
+
+Tüm kurulumlar tamamlandıktan sonra aynı terminal ekranında simülasyonu başlatmak için:
+
+```bash
+streamlit run app.py
+```
+
+> **Not:** Komutu girdikten sonra tarayıcınız otomatik olarak `http://localhost:8501` adresinde açılacaktır.
